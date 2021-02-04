@@ -1,0 +1,13 @@
+const age = [12, 13, 19, 14, 20];
+const age2 = [21, 30, 26, 29];
+const age3 = [30, 40, 38];
+const allAges = age.concat(age2).concat([5]).concat(age2);
+const allAges2 = [...age, ...age2, 5, ...age3];
+// console.log(allAges2);
+const business = 650;
+const minister = 360;
+const politian = 850;
+const maxArray = [12, 345, 654, 987, 12, 999];
+const maximum = Math.max(business, minister, politian);
+const maxValue = Math.max(...maxArray);
+console.log(maxValue);
